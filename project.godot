@@ -16,7 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Project Template"
+run/main_scene="res://.import/Game.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=800
 
 [rendering]
 
