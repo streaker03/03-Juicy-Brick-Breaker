@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+[node name="Brick_Container" type="Node2D"]
+
+[node name="Brick" type="StaticBody2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Brick"]
+margin_left = -30.0
+margin_top = -10.0
+margin_right = 30.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick"]
+scale = Vector2( 3, 1 )
+shape = SubResource( 1 )
